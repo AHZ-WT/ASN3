@@ -10,12 +10,36 @@
 
 /* Global styles 
 ------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #263d42;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 img {
-    width: 300px;
+    width: 450px;
+    height: 150px;
+}
+
+.photography {
+    height: 600px;
+    width: 450px;
+}
+
+.cycles {
+    width: 450px;
+    height: 200px;
 }
 
 a {
@@ -42,10 +66,26 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
+    margin-top: 5px;
 
 }
 .projects .btn:hover{
     background: rgb(11,57,84, 70%);
+}
+
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #263D42;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3{
+    margin-top: 0;
 }
 
 /* Work Experience
@@ -53,6 +93,7 @@ header {
 .work-experience {
     background-color: #70A0AF;
 }
+
 
 /* Education
 ------------------------------------------*/
@@ -63,4 +104,27 @@ footer {
     background-color: #de6E4B;
     color: #263d42;
     
+}
+
+h2{
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 1;
+    font-style: italic;
+    
+}
+
+h1, h2 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
