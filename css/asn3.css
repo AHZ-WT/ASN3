@@ -121,6 +121,7 @@ h1, h2 {
     font-family: 'Lobster Two', cursive;
     font-weight: 400;
     margin: 0px;
+    text-shadow: 2px 2px 5px #70A0AF;
 }
 
 .content-wrap{
